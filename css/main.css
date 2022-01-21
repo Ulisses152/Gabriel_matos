@@ -109,9 +109,12 @@ header img {
   line-height: 1.4rem;
 }
 /*final sobre*/
+/*Inicio footer*/
 footer {
   color: #fff;
   width: 100%;
   background: var(--cor_secundaria);
   font-family: var(--font);
 }
+
+/*Final footer*/
