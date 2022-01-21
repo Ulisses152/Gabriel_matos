@@ -9,9 +9,9 @@ html {
   --cor_secundaria: #055158;
   --cor_primaria: #000;
   --font-color: #fff;
-  --font: font-family: 'Open Sans', sans-serif;
+  --font: 'Open Sans', sans-serif;
+  --cor_secundaria_light: #0bc6d7;
 }
-
 
 body {
   width: 100%;
@@ -26,7 +26,7 @@ header img {
   width: 100%;
   border-bottom: 1px solid #ffffff59;
 }
-.socials{
+.socials {
   display: flex;
   justify-content: center;
   gap: 4rem;
@@ -37,7 +37,7 @@ header img {
   font-size: 2.2rem;
   color: var(--cor_secundaria);
   position: relative;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -45,48 +45,74 @@ header img {
 
 .socials a span {
   font-size: 1vw;
-  
 }
 
-
-
-.spotify:hover{
+.spotify:hover {
   color: #81b71a;
 }
 
-.deezer:hover{
-  background:linear-gradient(45deg, #ff0000, #ffed00, #ff0092, #c2ff00, #00c7f2, #c1f1fc);
+.deezer:hover {
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ffed00,
+    #ff0092,
+    #c2ff00,
+    #00c7f2,
+    #c1f1fc
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.instagram:hover{
-  color: white;  
-    background:linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.instagram:hover {
+  color: white;
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.facebook:hover{
+.facebook:hover {
   color: #139ef8;
 }
-.youtube:hover{
+.youtube:hover {
   color: #ff0000;
 }
-.whatsapp:hover{
+.whatsapp:hover {
   color: #2bd046;
 }
 
-
-
-
-
 /*Final header*/
 /*inicio video*/
-.video h1{
+.video h1 {
   color: #fff;
   font-family: var(--font);
 }
-.box-video{
+.box-video {
   border-radius: 10px;
   border: 1px solid var(--cor_secundaria);
 }
 /*Final video*/
+
+/*inicio sobre*/
+.about h2 {
+  font-size: 2.5rem;
+  font-family: var(--font);
+  color: var(--cor_secundaria_light);
+}
+.box-about {
+  font-family: var(--font);
+  line-height: 1.4rem;
+}
+/*final sobre*/
+footer {
+  color: #fff;
+  width: 100%;
+  background: var(--cor_secundaria_light);
+  font-family: var(--font);
+}
