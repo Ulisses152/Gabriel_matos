@@ -110,17 +110,17 @@ header img {
 }
 .about p {
   font-family: var(--font);
-  line-height: 1.4rem;
-  color: #b5b5b5;
+  line-height: 1.6rem;
+  color: #fff;
 }
 /*final sobre*/
 /*Inicio footer*/
 footer {
-  color: #b5b5b5;
+  color: #fff;
   width: 100%;
   background: var(--cor_secundaria);
   font-family: var(--font);
-  font-size: 2.5vw;
+  font-size: 4vw;
 }
 
 /*Final footer*/
