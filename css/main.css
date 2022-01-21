@@ -13,6 +13,7 @@ html {
 }
 
 body {
+  background: linear-gradient(180deg, #201a1c, #2f2b38);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -21,9 +22,10 @@ body {
 }
 
 /*Inicio header*/
+
 header img {
   width: 100%;
-  border-bottom: 1px solid #ffffff59;
+  border-bottom: 1px solid #ffffff5e;
 }
 .socials {
   display: flex;
