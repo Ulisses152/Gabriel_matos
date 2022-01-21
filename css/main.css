@@ -111,15 +111,16 @@ header img {
 .about p {
   font-family: var(--font);
   line-height: 1.4rem;
+  color: #b5b5b5;
 }
 /*final sobre*/
 /*Inicio footer*/
 footer {
-  color: #fff;
+  color: #b5b5b5;
   width: 100%;
   background: var(--cor_secundaria);
   font-family: var(--font);
-  font-size: 2vw;
+  font-size: 2.5vw;
 }
 
 /*Final footer*/

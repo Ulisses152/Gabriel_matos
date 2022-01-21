@@ -41,14 +41,14 @@
     gap: 1em;
   }
   .socials a {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
   .about h2 {
-    font-size: 6.2vw;
+    font-size: 2rem;
   }
   .about p {
-    font-size: 3vw;
-    line-height: 1.1rem;
+    font-size: 1rem;
+    line-height: 1.3rem;
   }
   .box-video iframe {
     height: 220px;
