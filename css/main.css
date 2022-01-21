@@ -43,7 +43,7 @@ header img {
 }
 
 .socials a span {
-  font-size: 1vw;
+  font-size: 0.6rem;
 }
 
 .spotify:hover {
@@ -96,15 +96,19 @@ header img {
   border-radius: 10px;
   border: 1px solid var(--cor_secundaria);
 }
+.box-video iframe {
+  height: 400px;
+  width: 98%;
+}
 /*Final video*/
 
 /*inicio sobre*/
 .about h2 {
-  font-size: 2.5rem;
+  font-size: 4vw;
   font-family: var(--font);
   color: var(--cor_secundaria);
 }
-.box-about {
+.about p {
   font-family: var(--font);
   line-height: 1.4rem;
 }
@@ -115,6 +119,7 @@ footer {
   width: 100%;
   background: var(--cor_secundaria);
   font-family: var(--font);
+  font-size: 2vw;
 }
 
 /*Final footer*/
