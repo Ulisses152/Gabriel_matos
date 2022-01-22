@@ -59,16 +59,16 @@
   <!--Final header-->
   <!--Inicio video-->
   <section id="video" class="container video pt-4 mb-4">
-    <div class="row  d-flex justify-content-center">
-      <div class="box-video d-flex justify-content-center align-items-center col-11 col-sm-10 text-center py-2">
+    <div class="row video d-flex justify-content-center">
+      <div class="box-video video d-flex justify-content-center align-items-center col-11 col-sm-12 text-center py-2">
         <iframe src="https://www.youtube.com/embed/XNl-Cnub1AA?autoplay=0" title="YouTube video player" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </section>
   <section id="about" class="container about text-center d-flex justify-content-center">
-    <div class="row col-11 col-sm-10  box-about">
-      <h2 class="mt-5 mb-4">Um pouco sobre mim</h2>
-      <p class="text-white">Cantor, músico, compositor e produtor audiovisual, iniciou sua carreira aos 13 anos de idade ao lado de seu irmão Diego Matos, nas noites de São Paulo. Depois de muitos anos de estrada, passando por duas formações de dupla, hoje aos 27 anos Gabriel Matos percorre fazendo shows por todo o estado em carreira solo, com apenas um foco: Despertar e transmitir emoções por onde passa através da música.
+    <div class="row col-11 col-sm-12 mt-5 pt-5  box-about">
+      <h2 class="mt-5 mb-5">Um pouco sobre mim</h2>
+      <p class="text-white mt-5">Cantor, músico, compositor e produtor audiovisual, iniciou sua carreira aos 13 anos de idade ao lado de seu irmão Diego Matos, nas noites de São Paulo. Depois de muitos anos de estrada, passando por duas formações de dupla, hoje aos 27 anos Gabriel Matos percorre fazendo shows por todo o estado em carreira solo, com apenas um foco: Despertar e transmitir emoções por onde passa através da música.
         E se prepara, 2022 vem muita coisa boa por aí!
         Aguardem...</p>
     </div>
@@ -130,6 +130,13 @@
       .add({
         targets: '.box-video,.box-video iframe',
         opacity: 1,
+        easing: 'easeInOutSine',
+        delay: 300,
+      })
+      .add({
+        targets: '.box-about h2',
+        opacity: 1,
+        translateY: -20,
         easing: 'easeInOutSine',
         delay: 300,
       })

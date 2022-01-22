@@ -159,6 +159,8 @@ body {
   font-size: 4vw;
   font-family: var(--font);
   color: var(--cor_secundaria);
+  opacity: 0;
+  margin-bottom: -20px !important;
 }
 .about p {
   font-family: var(--font);
