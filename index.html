@@ -47,10 +47,10 @@
   <div class="container d-flex justify-content-center box-socials">
     <div class="d-flex justify-content-center align-items center">
       <div class="socials mt-4">
-        <a class="whatsapp" href=""><i class="fab fa-whatsapp"></i><span>Contato</span></a>
-        <a class="instagram" href=""><i class="fab fa-instagram"></i><span>Instagram</span></a>
+        <a class="whatsapp" href="https://api.whatsapp.com/send?phone=5511981031760&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."><i class="fab fa-whatsapp"></i><span>Contato</span></a>
+        <a class="instagram" href="https://www.instagram.com/gabrielmatos_gm/"><i class="fab fa-instagram"></i><span>Instagram</span></a>
         <a class="facebook" href=""><i class="fab fa-facebook"></i><span>Facebook</span></a>
-        <a class="youtube" href=""><i class="fab fa-youtube"></i><span>Youtube</span></a>
+        <a class="youtube" href="https://www.youtube.com/channel/UCuXYLsmpU2pShKBl-o43A3A"><i class="fab fa-youtube"></i><span>Youtube</span></a>
         <a class="spotify" href=""><i class="fab fa-spotify"></i><span>Spotify</span></a>
         <a class="deezer" href=""><i class="fab fa-deezer"></i><span>Deezer</span></a>
       </div>
@@ -144,6 +144,13 @@
         targets: '.box-about p',
         opacity: 1,
 
+        easing: 'easeInOutSine',
+        delay: 300,
+      })
+      .add({
+        targets: 'footer',
+        opacity: 1,
+        translateY: -20,
         easing: 'easeInOutSine',
         delay: 300,
       })
