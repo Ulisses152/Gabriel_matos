@@ -8,6 +8,11 @@
   }
 }
 @media (max-width: 991px) {
+  .box-img-header {
+    position: relative;
+    height: 500.1px;
+  }
+
   .foto-header {
     bottom: 10.8%;
     width: 90.5vw;
@@ -15,6 +20,12 @@
   }
   .box-socials {
     margin-top: -1.8rem !important;
+  }
+  .socials a span {
+    font-size: 1rem;
+  }
+  .socials a {
+    font-size: 6vw;
   }
   .box-letters-header {
     top: 22%;
@@ -46,11 +57,11 @@
     gap: 2.3rem;
   }
   .about h2 {
-    font-size: 5vw;
+    font-size: 6vw;
   }
   .about p {
-    font-size: 2.2vw;
-    line-height: 1.2rem;
+    font-size: 2.6vw;
+    line-height: 1.5rem;
   }
   .box-video iframe {
     height: 350px;
@@ -61,11 +72,11 @@
   .foto-header {
     bottom: 10.8%;
     width: 112.5vw;
-    right: -10%;
+    right: -6%;
   }
   .box-letters-header {
     top: 19%;
-    left: 13%;
+    left: 10%;
     flex-direction: column;
   }
   .box-letters-header span img {
@@ -78,7 +89,7 @@
     gap: 2rem;
   }
   .socials a {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .about h2 {
     font-size: 5vw;
@@ -100,7 +111,7 @@
   .foto-header {
     bottom: 11%;
     width: 107.5vw;
-    right: -8%;
+    right: -10%;
   }
   .box-letters-header {
     top: 13%;
@@ -113,8 +124,11 @@
     flex-wrap: wrap;
     gap: 1em;
   }
+  .socials a span {
+    font-size: 3vw;
+  }
   .socials a {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .about h2 {
     font-size: 2rem;
@@ -140,9 +154,12 @@
     height: 250px;
   }
   .box-letters-header span img {
-    width: 54vw;
+    width: 43vw;
   }
   .foto-header {
-    width: 121.5vw;
+    width: 118.5vw;
+  }
+  .socials a {
+    font-size: 1.5rem;
   }
 }
