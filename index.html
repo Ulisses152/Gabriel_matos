@@ -18,11 +18,33 @@
 <body>
   <!--Inicio header-->
   <header class="container-fluid">
-    <div class="mask">
-      <img class="img-fluid" src="./images/banner.jpeg" alt="">
+    <div class="box-img-header">
+      <img class="bg-header" src="./images/banner.jpg" alt="">
+      <img class="foto-header" src="./images/gabriel_foto.png" alt="">
+      <div class="box-letters-header">
+        <div class="box-letter-gabriel">
+          <span><img clas="letter" src="./images/G.png" alt=""></span>
+          <span><img clas="letter" src="./images/a.png" alt=""></span>
+          <span><img clas="letter" src="./images/b.png" alt=""></span>
+          <span><img clas="letter" src="./images/R.png" alt=""></span>
+          <span><img clas="letter" src="./images/i.png" alt=""></span>
+          <span><img clas="letter" src="./images/e.png" alt=""></span>
+          <span><img clas="letter" src="./images/l.png" alt=""></span>
+        </div>
+        <div class="box-letter-matos">
+          <span><img clas="letter" src="./images/Sanfona.png" alt=""></span>
+          <span><img clas="letter" src="./images/fole.png" alt=""></span>
+          <span><img clas="letter" src="./images/M.png" alt=""></span>
+          <span><img clas="letter" src="./images/A matos.png" alt=""></span>
+          <span><img clas="letter" src="./images/t.png" alt=""></span>
+          <span><img clas="letter" src="./images/o.png" alt=""></span>
+          <span><img clas="letter" src="./images/S.png" alt=""></span>
+        </div>
+
+      </div>
     </div>
   </header>
-  <div class="container d-flex justify-content-center mt-2">
+  <div class="container d-flex justify-content-center box-socials">
     <div class="d-flex justify-content-center align-items center">
       <div class="socials mt-4">
         <a class="whatsapp" href=""><i class="fab fa-whatsapp"></i><span>Contato</span></a>
@@ -46,7 +68,9 @@
   <section id="about" class="container about text-center d-flex justify-content-center">
     <div class="row col-10 box-about">
       <h2 class="mt-5 mb-4">Um pouco sobre mim</h2>
-      <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo delectus cumque consequuntur ad nihil molestiae accusantium ab debitis culpa necessitatibus porro modi voluptatum quaerat, velit iure? Corporis expedita accusantium doloremque!</p>
+      <p class="text-white">Cantor, músico, compositor e produtor audiovisual, iniciou sua carreira aos 13 anos de idade ao lado de seu irmão Diego Matos, nas noites de São Paulo. Depois de muitos anos de estrada, passando por duas formações de dupla, hoje aos 27 anos Gabriel Matos percorre fazendo shows por todo o estado em carreira solo, com apenas um foco: Despertar e transmitir emoções por onde passa através da música.
+        E se prepara, 2022 vem muita coisa boa por aí!
+        Aguardem...</p>
     </div>
   </section>
 
@@ -58,7 +82,55 @@
     </p>
   </footer>
   <!--Final footer-->
+
+  <!--Animações header-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="anime.min.js"></script>
+
+  <script>
+    var tl = anime.timeline({
+      easing: 'easeInOutSine',
+      duration: 750,
+    });
+
+    // Add children
+    tl
+      .add({
+        targets: '.bg-header',
+        opacity: 1,
+        easing: 'easeInOutSine',
+        delay: 100,
+
+
+      })
+      .add({
+        targets: '.foto-header',
+        translateY: -20,
+        easing: 'easeInOutSine',
+        opacity: 1,
+        delay: 200,
+      })
+      .add({
+        targets: '.box-letters-header span img',
+        translateY: 20,
+        opacity: 1,
+        duration: 200,
+        easing: 'easeInOutSine',
+        delay: function (el, i) { return i * 50; },
+      })
+      .add({
+        targets: '.socials a',
+        translateY: -10,
+        opacity: 1,
+        duration: 250,
+        easing: 'easeInOutSine',
+        delay: function (el, i) { return i * 100; },
+      });
+
+  </script>
+
+
 </body>
 
 </html>
