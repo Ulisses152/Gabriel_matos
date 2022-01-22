@@ -37,9 +37,7 @@
     transition: 0.3s;
   }
   .video {
-    height: 500px;
-    margin-top: 2rem !important;
-    margin-bottom: 3rem !important;
+    height: 50%;
   }
   .about p {
     font-family: var(--font);

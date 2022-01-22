@@ -166,6 +166,7 @@ body {
   font-family: var(--font);
   line-height: 1.6rem;
   color: #fff;
+  opacity: 0;
 }
 /*final sobre*/
 /*Inicio footer*/
